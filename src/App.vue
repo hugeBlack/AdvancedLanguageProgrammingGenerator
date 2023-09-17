@@ -6,7 +6,9 @@ import { RouterView, RouterLink } from 'vue-router'
     <div class="links">
         <RouterLink to="/">主页</RouterLink>
         <RouterLink to="/shushi">进制转换竖式生成</RouterLink>
-        <RouterLink to="/toten">转10进制表达式生成</RouterLink>
+        <RouterLink to="/toten">转十进制表达式生成</RouterLink>
+        <RouterLink to="/negative1">负数转二进制</RouterLink>
+        <RouterLink to="/negative2">负二进制转10进制</RouterLink>
     </div>
 
     <RouterView></RouterView>

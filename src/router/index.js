@@ -18,10 +18,16 @@ const router = createRouter({
                 }, {
                     path: "toten",
                     component: () => import("@/views/ToTen.vue")
+                }, {
+                    path: "negative1",
+                    component: () => import("@/views/Negative1.vue")
+                }, {
+                    path: "negative2",
+                    component: () => import("@/views/Negative2.vue")
                 }
             ]
         },
-        { path: '/:pathMatch(.*)*', name: 'NotFound', component: ()=>import("@/pages/ErrorPage.vue") },
+        // { path: '/:pathMatch(.*)*', name: 'NotFound', component: ()=>import("@/pages/ErrorPage.vue") },
 
     ]
 })
