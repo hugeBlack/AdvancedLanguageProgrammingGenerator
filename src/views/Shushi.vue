@@ -160,6 +160,7 @@ const val = computed(()=>{
 .finalResult {
     margin-top: 20px;
     font-weight: bold;
+    text-align: center;
 }
 
 .input {

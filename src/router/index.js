@@ -24,6 +24,12 @@ const router = createRouter({
                 }, {
                     path: "negative2",
                     component: () => import("@/views/Negative2.vue")
+                }, {
+                    path: "split8",
+                    component: () => import("@/views/Split8.vue")
+                }, {
+                    path: "calcStack",
+                    component: () => import("@/views/CalcStack.vue")
                 }
             ]
         },

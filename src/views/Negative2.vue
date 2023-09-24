@@ -30,7 +30,6 @@ const targetInt32 = computed(()=> {
             ans |= (1 << (rawBinaryStr.value.length - 1 - i))
         }
     }
-    console.log(ans, significant)
     for(let i = significant;i<32;i++){
         ans |= (1 << i)
     }
@@ -110,9 +109,17 @@ const orgBinary = computed(()=>{
     border-bottom: 2px #000 solid;
 }
 
+.block2 {
+    padding: 0 10px;
+}
+
 .block2 p {
     text-align: end;
     margin-block-start: 0 !important;
     margin-block-end: 0 !important;
+}
+
+.result .el-col {
+    padding: 3px;
 }
 </style>
