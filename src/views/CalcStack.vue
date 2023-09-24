@@ -11,7 +11,6 @@ const operators = {
     "++": {priority: 3, associativity: "right"},
     "--": {priority: 3, associativity: "right"},
 
-    "=": {priority: 15, associativity: "right"},
     "+=": {priority: 15, associativity: "right"},
     "-=": {priority: 15, associativity: "right"},
     "*=": {priority: 15, associativity: "right"},
@@ -31,6 +30,7 @@ const operators = {
     "==": {priority: 9, associativity: "left"},
     "!=": {priority: 9, associativity: "left"},
 
+    "=": {priority: 15, associativity: "right"},
     "+": {priority: 6, associativity: "left"},
     "-": {priority: 6, associativity: "left"},
     "*": {priority: 5, associativity: "left"},
